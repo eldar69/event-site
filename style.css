@@ -132,7 +132,50 @@ h5 {
 
     /*SCHEDULE*/
 
+.heading2{
+    background-color: #c5e0bf;
+    padding: 1.5em;
+    color:#293f51 ;
+}
+
+table, td {
+    padding: 1em;
+  }
 
 
 
+
+
+
+  /*Register*/
+  .register{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2em;
+    max-width: 880px;
+    margin-top: 1.5em; 
+  }
+  .form {
+      margin-top: 1.5em;
+  }
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0 25px;
+    border: 1px solid #293f51 ;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
     
+    background-color: #648880;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer
+
+  }
