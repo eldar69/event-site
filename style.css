@@ -135,6 +135,9 @@ h5 {
 .heading2{
     background-color: #c5e0bf;
     padding: 1.5em;
+    
+}
+.headcolor{
     color:#293f51 ;
 }
 
@@ -169,7 +172,6 @@ table, td {
   }
 
   input[type=submit] {
-    
     background-color: #648880;
     color: white;
     padding: 14px 20px;
