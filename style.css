@@ -132,23 +132,24 @@ h5 {
          padding-left: 0;
          font-size: 12px;
       }
-      .register-btn{
-        margin-left: 100px;
-        margin-top: .5em;
+       .register-btn{
+        margin-left: 170px;
+        margin-top: 2.5em;
         margin-bottom: 1.5em;
        
-    }
+    } 
 
-    .button {
+     .button {
         border: 1px solid white;
         background-color: #293f51;
         color: white;
-        padding: .5em 1em;
+        padding: 1.5em 1em;
         text-align: center;
         text-decoration: none;
         font-size: 16px;
         border-radius: 0.5em;
-      }
+        margin-top: 1.5em;
+      } 
       
       .grid{
           display:block;
@@ -169,7 +170,7 @@ h5 {
     .images {
         object-fit: cover;
         border-radius: 0.5em;
-        height: 20vh;
+        width: 100%;
     }
     .text:hover {
           color:#141718;
@@ -200,8 +201,22 @@ h5 {
  table,td {
     padding: 1em;
   }
-  tr {
+  table {
+     border-collapse: collapse;
+     width:100%; 
+  }
+  td {
+      
       border-bottom: 1px solid #293f51;
+  }
+  .rmborder{
+      border-bottom: none;
+  }
+  .links{
+      color: #293f51;
+  }
+  .bold{
+      font-weight: bold;
   }
 
 
@@ -230,6 +245,7 @@ h5 {
       }
 
   }
+
   .form {
       margin-top: 1.5em;
   }
