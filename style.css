@@ -102,7 +102,7 @@ h5 {
     .date {
         text-align: end;
     }
-    main {
+    .main {
         display: grid;
         grid-template-columns: repeat(3, auto);
         grid-template-rows: 1fr;
